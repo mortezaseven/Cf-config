@@ -82,6 +82,8 @@ ALPN : h3
 
 ---
 روشی که من پنل رو نصب کردم و سرتیفیکت گرفتم از طریق Nginx هست
+<br>
+<br>
 #update server
 ```
 apt update && apt upgrade -y
