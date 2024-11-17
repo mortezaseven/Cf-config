@@ -90,6 +90,9 @@ ALPN : h3
 هر جا my.domain.ir بود دامنه خودتان را وارد کنید
 <br>
 <br>
+پروکسی دامنه تا قبل از پایان نصب خاموش باشد
+<br>
+<br>
 #update server
 ```
 apt update && apt upgrade -y
@@ -118,7 +121,9 @@ remove default_server at two lines
 <br>
 server_name my.domain.ir;
 <br>
+<br>
 save and exit
+<br>
 <br>
 #restart NGINX service
 ```
