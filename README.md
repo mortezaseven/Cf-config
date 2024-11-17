@@ -85,6 +85,8 @@ ALPN : h3
 <br>
 <br>
 هر جا my.domain.ir بود دامنه خودتان را وارد کنید
+<br>
+<br>
 #update server
 ```
 apt update && apt upgrade -y
@@ -110,6 +112,7 @@ cd /etc/nginx/sites-enabled && ls -la
 nano /etc/nginx/sites-available/my.domain.ir
 ```
 حذف واژه  default_server از جلو پورت 80 در دو جا
+<br>
 server_name my.domain.ir;
 <br>
 save and exit
