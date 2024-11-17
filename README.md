@@ -76,6 +76,9 @@ ALPN : h3
 دو مورد h2 , Http/1.1 حذف شود
 <br>
 <br>
+در صورت از کار افتادن آی پی کلود فلر ، با پیدا کردن آی پی سالم کلود فلر ، میتوانید آن را در قسمت آدرس V2rayN/NG جایگذاری کنید
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -111,7 +114,7 @@ cd /etc/nginx/sites-enabled && ls -la
 ```
 nano /etc/nginx/sites-available/my.domain.ir
 ```
-حذف واژه  default_server از جلو پورت 80 در دو جا
+remove default_server at two line
 <br>
 server_name my.domain.ir;
 <br>
