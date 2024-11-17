@@ -114,11 +114,12 @@ cd /etc/nginx/sites-enabled && ls -la
 ```
 nano /etc/nginx/sites-available/my.domain.ir
 ```
-remove default_server at two line
+remove default_server at two lines
 <br>
 server_name my.domain.ir;
 <br>
 save and exit
+<br>
 #restart NGINX service
 ```
 systemctl restart nginx
