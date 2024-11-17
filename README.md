@@ -13,19 +13,38 @@
 یک کانفیگ با مشخصات زیر بسازی
 <br>
 vless
+<br>
 transmission : SplitHTTP
+<br>
 Host : dirty domain ( with proxy on )
+<br>
 Path : /test?ed=2096
+<br>
 بجای کلمه test هر کلمه ای که مایل بودید را میتوانید بنویسید
+<br>
 external proxy = on
+<br>
 Ip : one of the clean cloudflare Ip
+<br>
 port : one of the cloudflare https ports
+<br>
 security : TLS
+<br>
 uTLS : chrome
+<br>
 ALPN : h2 - http/1.1 - h3
+<br>
 allow insecure : on
+<br>
 public and private key of dirty domain must insert
+<br>
 بقیه موارد را دست نزنید
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 ---
 
