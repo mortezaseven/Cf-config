@@ -84,6 +84,7 @@ ALPN : h3
 روشی که من پنل رو نصب کردم و سرتیفیکت گرفتم از طریق Nginx هست
 <br>
 <br>
+هر جا my.domain.ir بود دامنه خودتان را وارد کنید
 #update server
 ```
 apt update && apt upgrade -y
@@ -108,8 +109,10 @@ cd /etc/nginx/sites-enabled && ls -la
 ```
 nano /etc/nginx/sites-available/my.domain.ir
 ```
-remove default values  
+حذف واژه  default_server از جلو پورت 80 در دو جا
 server_name my.domain.ir;
+<br>
+save and exit
 #restart NGINX service
 ```
 systemctl restart nginx
