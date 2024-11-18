@@ -63,9 +63,6 @@ public and private key of dirty domain must insert
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 ---
 
 پس از کپی کردن کانفیگ در سمت کاربر ، در کانفیگ باید یک تغییر ایجاد کنید
