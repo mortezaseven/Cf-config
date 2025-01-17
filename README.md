@@ -19,7 +19,7 @@
 vless
 <br>
 <br>
-transmission : SplitHTTP (xhttp)
+transmission : xHTTP (splithttp)
 <br>
 <br>
 Host : dirty domain ( with proxy on )
